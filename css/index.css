@@ -1,0 +1,146 @@
+* {
+  position: relative;
+}
+
+html, body {
+  margin: 0px;
+}
+
+.page {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+
+.upborder {
+  position: absolute;
+  height: 60px;
+  width: 500px;
+  left: 200px;
+  top: 160px;
+  border: solid 4px #4A4A4C;
+  border-bottom: none;
+}
+
+.downborder {
+  position: absolute;
+  height: 60px;
+  width: 500px;
+  left: 200px;
+  bottom: 90px;
+  border: solid 4px #4A4A4C;
+  border-top: none;
+}
+
+.link {
+  position: absolute;
+  width: 500px;
+  top: 40px;
+  right: 70px;
+}
+
+.link a {
+  margin-right: 50px;
+  font-size: 26px;
+  font-family: Bitter;
+}
+
+.button {
+  display: inline;
+}
+
+.button a:hover {
+  border-bottom: solid 4px #4A4A4C;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  color: #4A4A4C;
+}
+
+.menu {
+  height: 60px;
+}
+
+.menu h4 {
+  position: absolute;
+  padding: 10px;
+  height: 20px;
+  width: 200px;
+  top: -20px;
+  left: 60px;
+  text-align: center;
+  font-size: 26px;
+  font-family: Bitter;
+  color: #4A4A4C;
+}
+
+.downpage {
+  width: 100%;
+  top: 100px;
+}
+
+.content, .logo {
+  display: inline-block;
+  height: 500px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.content {
+  left: 30px;
+  top: 30px;
+}
+
+.content h4 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  line-height: 40px;
+  font-size: 40px;
+  font-family: Bitter;
+  font-weight: 900;
+  color: #4A4A4C;
+  letter-spacing: 1px;
+}
+
+.content p {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  top: 170px;
+  line-height: 25px;
+  font-family: Adobe Arabic;
+  opacity: 0.7;
+  letter-spacing: 1.5px;
+}
+
+.logo img {
+  position: absolute;
+  height: 200px;
+  width: 500px;
+  top: 100px;
+  opacity: 0.5;
+  left: -50px;
+}
+
+.foot {
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  bottom: -150px;
+  background-color: #4A4A4C;
+}
+
+.foot p {
+  top: -20px;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  font-family: Bitter;
+  letter-spacing: 1px;
+}

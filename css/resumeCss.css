@@ -1,0 +1,327 @@
+/*B036060006 何智誠 2016 MIS web homework 1 resume.html*/
+* {
+    /*border:solid 1px;*/
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    background-color: #F4F4F4;
+}
+
+.page {
+    margin-left: auto;
+    margin-right:auto;
+    border: solid 7px #4A4A4C;
+    border-bottom: solid 10px #4A4A4C;
+    width: 1000px;
+    height: 1400px;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.2)
+}
+
+.menu {
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 5px;
+    width: 1000px;
+    height: 60px;
+    background-color: #9D9D9D;
+    border: solid 6px #4A4A4C;
+    border-top: none;
+    
+
+}
+
+.menu h4 {
+    left: 250px;
+    display: inline-block;
+    font-family: Bitter;
+    font-size: 24px;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu a {
+    color: #4A4A4C;
+    bottom: 10px;
+}
+
+.menu a:hover {
+    border-top: solid 4px white;
+    padding-bottom: 5px;
+}
+
+.right {
+    width: 600px;
+    display: inline-block;
+}
+
+.intro {
+    height: 230px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 26px;
+    position: relative;
+    border-bottom: solid 3px #4A4A4C;
+    top: -25px;
+}
+
+.intro h4 {
+    margin: 1px;
+    top: 65px;
+    position: absolute;
+    font-family: Bitter;
+    color: #717275;
+}
+
+.intro h2 {
+    padding-top: 22px;
+    font-family: Bitter;
+    font-size: 34px;
+    color: #4A4A4C;
+}
+
+.intro p {
+    position: absolute;
+    bottom: 20px;
+    height: 90px;
+    width: 600px;
+    font-family: Adobe Hebrew;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    padding-top: 14px;
+    line-height: 28px;
+}
+
+.edu {
+    height: 400px;
+    padding: 20px;
+}
+
+.skill {
+    height: 330px;
+    padding: 20px;
+}
+
+.subtitle {
+    padding-left: 20px;
+    margin-top: 2px;
+    border-left: solid 5px;
+    font-family: Bitter;
+    color: #4A4A4C;
+}
+
+.exp {
+    height: 420px;
+    padding: 20px;
+}
+
+.left {
+    width: 250px;
+    display: inline-block;
+    margin-right: 30px;
+    font-family: Bitter;
+    background-color: #4A4A4C;
+    color: White;
+}
+
+.img {
+    height: 200px;
+    width: 100px;
+    border-bottom: solid 5px white;
+    left: 70px;
+}
+
+.img img {
+    height: 150px;
+    width: 120px;
+    top: 20px;
+    left: -10px;
+}
+
+.contact {
+    height: 750px;
+}
+
+.follow {
+    height: 385px;
+    bottom:10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.contact h3 {
+    height: 130px;
+    margin-top: 30px;
+    padding: 15px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    line-height: 26px;
+}
+
+.infon_icon{
+    height: 90px;
+    padding-left: 5px;
+    top: -100px;
+    margin-bottom: -5px;
+}
+
+.fol_icon {
+    width: 45px;
+    height: 45px;
+    margin-left: 100px;
+}
+
+.fol-cont {
+    font-size: 18px;
+    text-align: center;
+}
+
+.grap {
+    margin-top: 20px;
+    font-family: Bitter;
+    font-size: 20px;
+}
+
+.diagram {
+    border: solid 3px #4A4A4C;
+    width: 550px;
+    height: 16px;
+}
+
+.ability {
+    border-bottom: solid 9px #4A4A4C;
+}
+
+.crawler {
+    width: 350px;
+}
+
+.web {
+    width: 300px;
+}
+
+.adobe {
+    width: 400px;
+}
+
+.learning {
+    padding-left: 15px;
+}
+
+.exp-content {
+    position: absolute;
+    top: 100px;
+}
+
+.exp-content p {
+    font-family: Bitter;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+    color: #4A4A4C;
+}
+
+.exp-content img {
+    left: -60px;
+    width: 60px;
+    height: 70px;
+    margin-left: 120px;
+}
+
+.img-1,
+.img-2 {
+    width: 650px;
+}
+
+.img-2 {
+    margin-top: 20px;
+}
+
+.icon1-title,
+.icon2-title {
+    display: inline-block;
+    margin: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    left: 20px;
+}
+
+#bike {
+    margin-left: 20px;
+}
+
+#hiphop {
+    margin-left: 25px;
+}
+
+#contact-me {
+    height: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.cont_icon {
+    margin-left: 85px;
+    width: 55px;
+    height: 55px;
+}
+
+.info {
+    font-size: 18px;
+    text-align: center;
+}
+
+.content {
+    top: 10px;
+}
+
+.content h4 {
+    font-family: Bitter;
+    border-bottom: solid 3px #4A4A4C;
+    ;
+    padding-bottom: 10px;
+    width: 650px;
+    color: #717275;
+}
+
+.content p {
+    font-size: 20px;
+    line-height: 22px;
+    height: 60px;
+    font-family: Adobe Hebrew;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+}
+
+#follow-me {
+    text-align: center;
+    top: -180px;
+    border-top: solid 5px white;
+    margin-bottom: 90px;
+    padding-top: 40px;
+    width: 150px;
+    left: 50px;
+}
+
+.icon_list {
+    top: -210px;
+}
+
+.icon_list h3 {
+    margin-top: 60px;
+}
+
+.icon_list img:hover {
+    width: 50px;
+    height: 50px;
+}
